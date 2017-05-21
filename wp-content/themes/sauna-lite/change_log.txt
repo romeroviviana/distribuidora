@@ -1,0 +1,23 @@
+Version 1.0
+i) Intial version Release
+
+Version 1.1
+i) Fix style errors.
+
+Version 1.1.1
+i) Fix style errors.
+
+Version 1.1.2
+i) Fix errors related to enque and links.
+
+Version 1.1.3
+i) Translation and other errors fixed.
+
+Version 1.1.4
+i) Given used images link in readme.txt
+
+Version 1.1.5
+i) Bug fixes
+
+Version 1.1.5
+i) console error fixed

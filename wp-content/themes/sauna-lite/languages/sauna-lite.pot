@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sauna Lite\n"
+"POT-Creation-Date: 2016-02-11 19:00+0530\n"
+"PO-Revision-Date: 2016-02-11 19:00+0530\n"
+"Last-Translator: \n"
+"Language-Team: Themes Caliber <support@themescaliber.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: 404.php:20
+msgid "<strong>404</strong> Not Found"
+msgstr ""
+
+#: 404.php:21
+msgid "Looks like you have taken a wrong turn....."
+msgstr ""
+
+#: 404.php:22
+#: no-results.php:21
+msgid "Don't worry... it happens to the best of us."
+msgstr ""
+
+#: 404.php:24
+#: no-results.php:23
+msgid "Back to Home Page"
+msgstr ""
+
+#: archive.php:53 
+#: sidebar-main.php:11
+#: sidebar-page.php:11 
+#: sidebar.php:12
+msgid "Archives"
+msgstr ""
+
+#: category.php:51
+#: category.php:63
+msgid "Read Full"
+msgstr ""
+
+#. translators: %s: post title
+#: comments.php:26
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:26
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:32
+#: comments.php:56
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:34
+#: comments.php:57
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:37
+#: comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: content-page.php:16
+#: content-single.php:26
+#: content.php:36
+#: image.php:43
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:21
+#: content-single.php:37
+#: content.php:71
+#: image.php:48
+#: inc/template-tags.php:70
+#: inc/template-tags.php:89
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:32
+msgid " | Tags: "
+
+#: content.php:29
+msgid "Read More &raquo;"
+msgstr ""
+
+#: content.php:33
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content.php:51
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: content.php:61
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: content.php:67
+msgid "Leave a comment"
+msgstr ""
+
+#: content.php:67
+msgid "1 Comment"
+msgstr ""
+
+#: content.php:67
+#, php-format
+msgid "% Comments"
+msgstr ""
+
+#: footer.php:35
+msgid "page_title"
+msgstr ""
+
+#: footer.php:19
+msgid "address"
+msgstr ""
+
+#: footer.php:24
+msgid "contact"
+msgstr ""
+
+
+#: functions.php:78
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:92
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:93
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: functions.php:102
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:103
+msgid "Appears on page sidebar"
+msgstr ""
+
+#: functions.php:112
+msgid "Footer Navigation"
+msgstr ""
+
+#: functions.php:113
+msgid "Appears on footer"
+msgstr ""
+
+#: functions.php:122
+msgid "Footer Navigation 2"
+msgstr ""
+
+#: functions.php:123
+msgid "Appears on footer"
+msgstr ""
+
+#: header.php:24
+msgid "Menu"
+msgstr ""
+
+#: home.php:60
+msgid "Learn More"
+msgstr ""
+
+#: index.php:58
+#: index.php:70
+msgid "Read full"
+msgstr ""
+
+#: no-results.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:16
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:18
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar-main.php:17
+#: sidebar-page.php:17
+#: sidebar.php:18
+msgid "Meta"
+msgstr ""
+
+#: inc/customizer.php:26
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer.php:20
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/customizer.php:21
+msgid "Description of what this panel does."
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "Select Slide Image Page"
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:50
+msgid "Add News sections content here."
+msgstr ""
+
+#: inc/customizer.php:77
+msgid "Background image (1440x700)"
+msgstr ""
+
+#: inc/customizer.php:89
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer.php:100
+msgid "Section Description"
+msgstr ""
+
+#: inc/customizer.php:106
+msgid "Navigation"
+msgstr ""
+
+#: inc/customizer.php:111
+msgid "News Title"
+msgstr ""
+
+#: inc/customizer.php:124
+msgid "Address Title"
+msgstr ""
+
+#: inc/customizer.php:137
+msgid "Our Address"
+msgstr ""
+
+#: inc/customizer.php:150
+msgid "Contact No"
+msgstr ""
+
+#: inc/customizer.php:163
+msgid "Email Address"
+msgstr ""
+
+#: inc/customizer.php:176
+msgid "Twitter url"
+msgstr ""
+
+#: inc/customizer.php:187
+msgid "Google plus url"
+msgstr ""
+
+#: inc/customizer.php:198
+msgid "Facebook url"
+msgstr ""
+
+#: inc/customizer.php:209
+msgid "Pinterest url"
+msgstr ""
+
+#: inc/customizer.php:220
+msgid "Rss url"
+msgstr ""
+
+#: inc/customizer.php:231
+msgid "Tumblr url"
+msgstr ""
+
+#: inc/customizer.php:231
+msgid "Tumblr url"
+msgstr ""
+
+#: inc/customizer.php:242
+msgid "Linkedin url"
+msgstr ""
+
+#: inc/customizer.php:253
+msgid "Instagram url"
+msgstr ""
+
+#: inc/customizer.php:259
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer.php:271
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer.php:286
+msgid "promote_image  (1440x700)"
+msgstr ""
+
+#: inc/customizer.php:372
+msgid "Theme Name Pro"
+msgstr ""
+
+#: inc/customizer.php:373
+msgid "Go Pro"
+msgstr ""
+
+
+#: inc/template-tags.php:24
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:37
+#, php-format
+msgid "%s <span class="says">says:</span>"
+msgstr ""
+
+#: inc/template-tags.php:37
+#, php-format
+msgid "<b class="fn">%s</b>"
+msgstr ""
+
+#: inc/template-tags.php:47
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:138
+#, php-format
+msgid ""
+"<span class=\"posted-on\">Published %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""
