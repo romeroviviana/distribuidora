@@ -1,0 +1,56 @@
+05-22-2017 @ 05:05:35 - [custom_process_admin_options] - analytics info response: {
+    "status": 200,
+    "response": {
+        "checkout_custom_credit_card": "false",
+        "checkout_custom_credit_card_coupon": "false",
+        "collector_id": "220510641",
+        "site_id": "MLV",
+        "platform": "WooCommerce",
+        "platform_version": "3.0.7",
+        "module_version": "2.2.6",
+        "code_version": "5.5.15",
+        "so_server": "WINNT"
+    }
+}
+05-22-2017 @ 05:05:36 - [custom_process_admin_options] - analytics info response: {
+    "status": 200,
+    "response": {
+        "checkout_custom_credit_card": "false",
+        "checkout_custom_credit_card_coupon": "false",
+        "collector_id": "220510641",
+        "site_id": "MLV",
+        "platform": "WooCommerce",
+        "platform_version": "3.0.7",
+        "module_version": "2.2.6",
+        "code_version": "5.5.15",
+        "so_server": "WINNT"
+    }
+}
+05-22-2017 @ 05:07:14 - [custom_process_admin_options] - analytics info response: {
+    "status": 200,
+    "response": {
+        "checkout_custom_credit_card": "false",
+        "checkout_custom_credit_card_coupon": "false",
+        "collector_id": "220510641",
+        "site_id": "MLV",
+        "platform": "WooCommerce",
+        "platform_version": "3.0.7",
+        "module_version": "2.2.6",
+        "code_version": "5.5.15",
+        "so_server": "WINNT"
+    }
+}
+05-22-2017 @ 05:07:15 - [custom_process_admin_options] - analytics info response: {
+    "status": 200,
+    "response": {
+        "checkout_custom_credit_card": "false",
+        "checkout_custom_credit_card_coupon": "false",
+        "collector_id": "220510641",
+        "site_id": "MLV",
+        "platform": "WooCommerce",
+        "platform_version": "3.0.7",
+        "module_version": "2.2.6",
+        "code_version": "5.5.15",
+        "so_server": "WINNT"
+    }
+}

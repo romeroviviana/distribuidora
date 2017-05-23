@@ -1,0 +1,388 @@
+05-22-2017 @ 14:14:30 - [process_payment] - preparing to render Mercado Pago checkout view.
+05-22-2017 @ 14:14:49 - [build_payment_preference] - preference created with following structure: {
+    "items": [
+        {
+            "id": 84,
+            "title": "Mouse Inalambrico x 1",
+            "description": "strongLorem-Ipsumstrong-es-simplemente-el-texto-de-relleno-de-las-imprentas-y-archivos-de-texto.-Lorem-Ipsum-ha-sido-el-texto-de-relleno-estándar-de-las-industrias-desde-el-año-1500-cuando-un-impresor-N.-del-T.-persona-q",
+            "picture_url": "http:\/\/localhost\/distribuidora\/wp-content\/uploads\/2017\/05\/mouse_inalambrico.jpg",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 15000,
+            "currency_id": "VEF"
+        }
+    ],
+    "payer": {
+        "name": "Beatriz",
+        "surname": "villamizarf",
+        "email": "bvillamizarespitia@gmail.com",
+        "phone": {
+            "number": "04266754603"
+        },
+        "address": {
+            "street_name": "rubio \/ rubio rubio VE",
+            "zip_code": "5030"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/localhost\/distribuidora\/finalizar-comprar\/order-received\/115?key=wc_order_592346a319299",
+        "failure": "http:\/\/localhost\/distribuidora\/carro\/?cancel_order=true&order=wc_order_592346a319299&order_id=115&redirect&_wpnonce=c000f5b01f",
+        "pending": "http:\/\/localhost\/distribuidora\/finalizar-comprar\/order-received\/115?key=wc_order_592346a319299"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "   ",
+            "apartment": ""
+        }
+    },
+    "payment_methods": {
+        "installments": 24,
+        "default_installments": 1
+    },
+    "external_reference": "WC-115",
+    "sponsor_id": 208692735,
+    "auto_return": "approved"
+}
+05-22-2017 @ 14:14:51 - [create_url] - payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "collector_id": 220510641,
+        "sponsor_id": 208692735,
+        "operation_type": "regular_payment",
+        "items": [
+            {
+                "id": "84",
+                "picture_url": "http:\/\/localhost\/distribuidora\/wp-content\/uploads\/2017\/05\/mouse_inalambrico.jpg",
+                "title": "Mouse Inalambrico x 1",
+                "description": "strongLorem-Ipsumstrong-es-simplemente-el-texto-de-relleno-de-las-imprentas-y-archivos-de-texto.-Lorem-Ipsum-ha-sido-el-texto-de-relleno-estándar-de-las-industrias-desde-el-año-1500-cuando-un-impresor-N.-del-T.-persona-q",
+                "category_id": "fashion",
+                "currency_id": "VEF",
+                "quantity": 1,
+                "unit_price": 15000
+            }
+        ],
+        "payer": {
+            "name": "Beatriz",
+            "surname": "villamizarf",
+            "email": "bvillamizarespitia@gmail.com",
+            "date_created": "",
+            "phone": {
+                "area_code": "",
+                "number": "04266754603"
+            },
+            "identification": {
+                "type": "",
+                "number": ""
+            },
+            "address": {
+                "street_name": "rubio  rubio rubio VE",
+                "street_number": null,
+                "zip_code": "5030"
+            }
+        },
+        "back_urls": {
+            "success": "http:\/\/localhost\/distribuidora\/finalizar-comprar\/order-received\/115?key=wc_order_592346a319299",
+            "pending": "http:\/\/localhost\/distribuidora\/finalizar-comprar\/order-received\/115?key=wc_order_592346a319299",
+            "failure": "http:\/\/localhost\/distribuidora\/carro\/?cancel_order=true&order=wc_order_592346a319299&order_id=115&redirect&_wpnonce=c000f5b01f"
+        },
+        "auto_return": "approved",
+        "payment_methods": {
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_payment_method_id": null,
+            "default_installments": 1
+        },
+        "client_id": "963",
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "",
+                "street_number": null,
+                "street_name": "   ",
+                "floor": "",
+                "apartment": ""
+            }
+        },
+        "notification_url": null,
+        "external_reference": "WC-115",
+        "additional_info": "",
+        "expires": false,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "date_created": "2017-05-22T16:14:51.548-04:00",
+        "id": "220510641-1282fcef-f221-4e86-837f-09d6de86dcf8",
+        "init_point": "https:\/\/www.mercadopago.com\/mlv\/checkout\/start?pref_id=220510641-1282fcef-f221-4e86-837f-09d6de86dcf8",
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com\/mlv\/checkout\/pay?pref_id=220510641-1282fcef-f221-4e86-837f-09d6de86dcf8"
+    }
+}
+05-22-2017 @ 14:14:51 - [render_order_form] - embedding Mercado Pago iframe.
+05-22-2017 @ 14:20:37 - [process_payment] - preparing to render Mercado Pago checkout view.
+05-22-2017 @ 14:20:55 - [build_payment_preference] - preference created with following structure: {
+    "items": [
+        {
+            "id": 84,
+            "title": "Mouse Inalambrico x 2",
+            "description": "strongLorem-Ipsumstrong-es-simplemente-el-texto-de-relleno-de-las-imprentas-y-archivos-de-texto.-Lorem-Ipsum-ha-sido-el-texto-de-relleno-estándar-de-las-industrias-desde-el-año-1500-cuando-un-impresor-N.-del-T.-persona-q",
+            "picture_url": "http:\/\/localhost\/distribuidora\/wp-content\/uploads\/2017\/05\/mouse_inalambrico.jpg",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 30000,
+            "currency_id": "VEF"
+        }
+    ],
+    "payer": {
+        "name": "Beatriz",
+        "surname": "villamizarf",
+        "email": "bvillamizarespitia@gmail.com",
+        "phone": {
+            "number": "04266754603"
+        },
+        "address": {
+            "street_name": "rubio \/ rubio rubio VE",
+            "zip_code": "5030"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/localhost\/distribuidora\/finalizar-comprar\/order-received\/116?key=wc_order_592348118d9ba",
+        "failure": "http:\/\/localhost\/distribuidora\/carro\/?cancel_order=true&order=wc_order_592348118d9ba&order_id=116&redirect&_wpnonce=c000f5b01f",
+        "pending": "http:\/\/localhost\/distribuidora\/finalizar-comprar\/order-received\/116?key=wc_order_592348118d9ba"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "   ",
+            "apartment": ""
+        }
+    },
+    "payment_methods": {
+        "installments": 24,
+        "default_installments": 1
+    },
+    "external_reference": "WC-116",
+    "sponsor_id": 208692735,
+    "auto_return": "approved"
+}
+05-22-2017 @ 14:20:59 - [create_url] - payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "collector_id": 220510641,
+        "sponsor_id": 208692735,
+        "operation_type": "regular_payment",
+        "items": [
+            {
+                "id": "84",
+                "picture_url": "http:\/\/localhost\/distribuidora\/wp-content\/uploads\/2017\/05\/mouse_inalambrico.jpg",
+                "title": "Mouse Inalambrico x 2",
+                "description": "strongLorem-Ipsumstrong-es-simplemente-el-texto-de-relleno-de-las-imprentas-y-archivos-de-texto.-Lorem-Ipsum-ha-sido-el-texto-de-relleno-estándar-de-las-industrias-desde-el-año-1500-cuando-un-impresor-N.-del-T.-persona-q",
+                "category_id": "fashion",
+                "currency_id": "VEF",
+                "quantity": 1,
+                "unit_price": 30000
+            }
+        ],
+        "payer": {
+            "name": "Beatriz",
+            "surname": "villamizarf",
+            "email": "bvillamizarespitia@gmail.com",
+            "date_created": "",
+            "phone": {
+                "area_code": "",
+                "number": "04266754603"
+            },
+            "identification": {
+                "type": "",
+                "number": ""
+            },
+            "address": {
+                "street_name": "rubio  rubio rubio VE",
+                "street_number": null,
+                "zip_code": "5030"
+            }
+        },
+        "back_urls": {
+            "success": "http:\/\/localhost\/distribuidora\/finalizar-comprar\/order-received\/116?key=wc_order_592348118d9ba",
+            "pending": "http:\/\/localhost\/distribuidora\/finalizar-comprar\/order-received\/116?key=wc_order_592348118d9ba",
+            "failure": "http:\/\/localhost\/distribuidora\/carro\/?cancel_order=true&order=wc_order_592348118d9ba&order_id=116&redirect&_wpnonce=c000f5b01f"
+        },
+        "auto_return": "approved",
+        "payment_methods": {
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_payment_method_id": null,
+            "default_installments": 1
+        },
+        "client_id": "963",
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "",
+                "street_number": null,
+                "street_name": "   ",
+                "floor": "",
+                "apartment": ""
+            }
+        },
+        "notification_url": null,
+        "external_reference": "WC-116",
+        "additional_info": "",
+        "expires": false,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "date_created": "2017-05-22T16:20:58.283-04:00",
+        "id": "220510641-781a9736-1321-4f77-8ec3-bee64174ac8d",
+        "init_point": "https:\/\/www.mercadopago.com\/mlv\/checkout\/start?pref_id=220510641-781a9736-1321-4f77-8ec3-bee64174ac8d",
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com\/mlv\/checkout\/pay?pref_id=220510641-781a9736-1321-4f77-8ec3-bee64174ac8d"
+    }
+}
+05-22-2017 @ 14:20:59 - [render_order_form] - embedding Mercado Pago iframe.
+05-22-2017 @ 05:42:39 - [process_payment] - preparing to render Mercado Pago checkout view.
+05-22-2017 @ 05:42:56 - [build_payment_preference] - preference created with following structure: {
+    "items": [
+        {
+            "id": 31,
+            "title": "Fragancia Carolina Herrera x 1",
+            "description": "strongLorem-Ipsumstrong-es-simplemente-el-texto-de-relleno-de-las-imprentas-y-archivos-de-texto.-Lorem-Ipsum-ha-sido-el-texto-de-relleno-estándar-de-las-industrias-desde-el-año-1500-cuando-un-impresor-N.-del-T.-persona-q",
+            "picture_url": "http:\/\/localhost\/distribuidora\/wp-content\/uploads\/2017\/05\/carolina_herrera_fragancia.jpg",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 100000,
+            "currency_id": "VEF"
+        }
+    ],
+    "payer": {
+        "name": "Beatriz",
+        "surname": "villamizar",
+        "email": "bvillamizarespitia@gmail.com",
+        "phone": {
+            "number": "04266754603"
+        },
+        "address": {
+            "street_name": "rubio \/ rubio rubio VE",
+            "zip_code": "5030"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/localhost\/distribuidora\/finalizar-comprar\/order-received\/119?key=wc_order_5922ceabec06d",
+        "failure": "http:\/\/localhost\/distribuidora\/carro\/?cancel_order=true&order=wc_order_5922ceabec06d&order_id=119&redirect&_wpnonce=7805206a1e",
+        "pending": "http:\/\/localhost\/distribuidora\/finalizar-comprar\/order-received\/119?key=wc_order_5922ceabec06d"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "   ",
+            "apartment": ""
+        }
+    },
+    "payment_methods": {
+        "installments": 24,
+        "default_installments": 1
+    },
+    "external_reference": "WC-119",
+    "sponsor_id": 208692735,
+    "auto_return": "approved"
+}
+05-22-2017 @ 05:43:01 - [create_url] - payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "collector_id": 220510641,
+        "sponsor_id": 208692735,
+        "operation_type": "regular_payment",
+        "items": [
+            {
+                "id": "31",
+                "picture_url": "http:\/\/localhost\/distribuidora\/wp-content\/uploads\/2017\/05\/carolina_herrera_fragancia.jpg",
+                "title": "Fragancia Carolina Herrera x 1",
+                "description": "strongLorem-Ipsumstrong-es-simplemente-el-texto-de-relleno-de-las-imprentas-y-archivos-de-texto.-Lorem-Ipsum-ha-sido-el-texto-de-relleno-estándar-de-las-industrias-desde-el-año-1500-cuando-un-impresor-N.-del-T.-persona-q",
+                "category_id": "fashion",
+                "currency_id": "VEF",
+                "quantity": 1,
+                "unit_price": 100000
+            }
+        ],
+        "payer": {
+            "name": "Beatriz",
+            "surname": "villamizar",
+            "email": "bvillamizarespitia@gmail.com",
+            "date_created": "",
+            "phone": {
+                "area_code": "",
+                "number": "04266754603"
+            },
+            "identification": {
+                "type": "",
+                "number": ""
+            },
+            "address": {
+                "street_name": "rubio  rubio rubio VE",
+                "street_number": null,
+                "zip_code": "5030"
+            }
+        },
+        "back_urls": {
+            "success": "http:\/\/localhost\/distribuidora\/finalizar-comprar\/order-received\/119?key=wc_order_5922ceabec06d",
+            "pending": "http:\/\/localhost\/distribuidora\/finalizar-comprar\/order-received\/119?key=wc_order_5922ceabec06d",
+            "failure": "http:\/\/localhost\/distribuidora\/carro\/?cancel_order=true&order=wc_order_5922ceabec06d&order_id=119&redirect&_wpnonce=7805206a1e"
+        },
+        "auto_return": "approved",
+        "payment_methods": {
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_payment_method_id": null,
+            "default_installments": 1
+        },
+        "client_id": "963",
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "",
+                "street_number": null,
+                "street_name": "   ",
+                "floor": "",
+                "apartment": ""
+            }
+        },
+        "notification_url": null,
+        "external_reference": "WC-119",
+        "additional_info": "",
+        "expires": false,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "date_created": "2017-05-22T19:12:06.491-04:00",
+        "id": "220510641-9c07ce76-9081-4c5b-aff8-124cec731546",
+        "init_point": "https:\/\/www.mercadopago.com\/mlv\/checkout\/start?pref_id=220510641-9c07ce76-9081-4c5b-aff8-124cec731546",
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com\/mlv\/checkout\/pay?pref_id=220510641-9c07ce76-9081-4c5b-aff8-124cec731546"
+    }
+}
+05-22-2017 @ 05:43:01 - [render_order_form] - embedding Mercado Pago iframe.
+12-31-2005 @ 22:32:36 - [validate_credentials] - while validating credentials, got exception: {"status":500,"message":"SSL certificate problem: certificate is not yet valid"}

@@ -2,20 +2,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MaxStore\n"
 "POT-Creation-Date: 2017-04-06 13:50+0200\n"
-"PO-Revision-Date: 2017-05-22 03:04+0000\n"
-"Last-Translator: bcve <bvillamizarespitia@gmail.com>\n"
-"Language-Team: \n"
-"Language: es_VE\n"
+"PO-Revision-Date: 2017-05-22 15:20+0000\n"
+"Last-Translator: Beatriz villamizar <bvillamizarespitia@gmail.com>\n"
+"Language-Team: Spanish (Venezuela)\n"
+"Language: es-VE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/\n"
+"X-Generator: Loco - https://localise.biz/\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: lib/kirki\n"
 "X-Poedit-SearchPathExcluded-1: inc/class-tgm-plugin-activation.php\n"
@@ -25,32 +25,8 @@ msgstr ""
 msgid "Oops!"
 msgstr ""
 
-#: 404.php:14
-msgid "404 Not Found"
-msgstr ""
-
-#: 404.php:16
-msgid "Sorry, an error has occured, Requested page not found!"
-msgstr ""
-
 #: 404.php:20
 msgid " Take Me Home"
-msgstr ""
-
-#: comments.php:6
-msgid "Leave a Comment"
-msgstr ""
-
-#: comments.php:6
-msgid "One Comment"
-msgstr ""
-
-#: comments.php:6
-msgid " Comments"
-msgstr ""
-
-#: content-none.php:2
-msgid "Nothing Found"
 msgstr ""
 
 #: content-none.php:5
@@ -71,18 +47,6 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#: content-single.php:26
-msgid "Previous:"
-msgstr ""
-
-#: content-single.php:27
-msgid "Next:"
-msgstr ""
-
-#: content.php:24
-msgid "Read more"
-msgstr ""
-
 #: footer.php:9
 #, php-format
 msgid "Proudly powered by %s"
@@ -99,14 +63,6 @@ msgstr ""
 
 #: footer.php:11
 msgid "Free WooCommerce WordPress Theme"
-msgstr ""
-
-#: front-page.php:33
-msgid "No products found"
-msgstr ""
-
-#: functions.php:25
-msgid "Main Menu"
 msgstr ""
 
 #: functions.php:88 lib/theme-config.php:233
@@ -138,44 +94,12 @@ msgstr ""
 msgid "Error 404"
 msgstr ""
 
-#: functions.php:257
-msgid "Search results for"
-msgstr ""
-
 #: functions.php:272
 msgid "Page"
 msgstr ""
 
-#: functions.php:346
-msgid "View your shopping cart"
-msgstr ""
-
-#: functions.php:347
-msgid "Cart "
-msgstr ""
-
-#: functions.php:361
-msgid "Wishlist"
-msgstr ""
-
-#: functions.php:434
-msgid "Add to Wishlist"
-msgstr ""
-
 #: functions.php:435
 msgid "Added!"
-msgstr ""
-
-#: functions.php:435
-msgid "View Wishlist"
-msgstr ""
-
-#: functions.php:436
-msgid "The product is already in the wishlist!"
-msgstr ""
-
-#: functions.php:436
-msgid "Browse Wishlist"
 msgstr ""
 
 #: functions.php:453
@@ -666,14 +590,6 @@ msgstr ""
 msgid "Upload first image. 600x600px"
 msgstr ""
 
-#: lib/metaboxes.php:45 lib/metaboxes.php:46
-msgid "Title"
-msgstr ""
-
-#: lib/metaboxes.php:51 lib/metaboxes.php:52
-msgid "Description"
-msgstr ""
-
 #: lib/metaboxes.php:57
 msgid "Button text"
 msgstr ""
@@ -716,14 +632,6 @@ msgstr ""
 
 #: lib/theme-config.php:43
 msgid "Top bar text"
-msgstr ""
-
-#: lib/theme-config.php:47
-msgid "Search Bar & Social"
-msgstr ""
-
-#: lib/theme-config.php:49
-msgid "Search and social icons"
 msgstr ""
 
 #: lib/theme-config.php:53
@@ -818,10 +726,6 @@ msgstr ""
 msgid "Banner url"
 msgstr ""
 
-#: lib/theme-config.php:201
-msgid "Products"
-msgstr ""
-
 #: lib/theme-config.php:203
 msgid ""
 "If you dont see any products or categories on your homepage, you dont have "
@@ -896,10 +800,6 @@ msgstr ""
 msgid "Top bar right text area"
 msgstr ""
 
-#: lib/theme-config.php:332
-msgid "Search bar"
-msgstr ""
-
 #: lib/theme-config.php:333
 msgid "Enable search bar with social icons"
 msgstr ""
@@ -918,10 +818,6 @@ msgstr ""
 
 #: lib/theme-config.php:348
 msgid "Hidden"
-msgstr ""
-
-#: lib/theme-config.php:361
-msgid "Social Icons"
 msgstr ""
 
 #: lib/theme-config.php:362
@@ -1009,10 +905,6 @@ msgstr ""
 msgid "Site description text color, if not defined logo."
 msgstr ""
 
-#: lib/theme-config.php:447
-msgid "Header Wishlist icon"
-msgstr ""
-
 #: lib/theme-config.php:448
 msgid "Enable or disable heart icon with counter in header"
 msgstr ""
@@ -1023,10 +915,6 @@ msgstr ""
 
 #: lib/theme-config.php:458
 msgid "Enable or disable header cart"
-msgstr ""
-
-#: lib/theme-config.php:466
-msgid "My Account/Login link"
 msgstr ""
 
 #: lib/theme-config.php:467
@@ -1051,10 +939,6 @@ msgstr ""
 
 #: lib/theme-config.php:500
 msgid "Gallery slider"
-msgstr ""
-
-#: lib/theme-config.php:508
-msgid "Number of products"
 msgstr ""
 
 #: lib/theme-config.php:509
@@ -1224,16 +1108,8 @@ msgstr ""
 msgid "Theme Demo"
 msgstr ""
 
-#: lib/welcome/sections/free_pro.php:24 lib/welcome/sections/free_pro.php:25
-msgid "Demo"
-msgstr ""
-
 #: lib/welcome/sections/free_pro.php:28
 msgid "Get Started"
-msgstr ""
-
-#: lib/welcome/sections/free_pro.php:30
-msgid "Download"
 msgstr ""
 
 #: lib/welcome/sections/free_pro.php:31
@@ -1595,10 +1471,6 @@ msgstr ""
 msgid "Install WooCommerce Shortcodes"
 msgstr ""
 
-#: lib/welcome/sections/support.php:9
-msgid "Need more details?"
-msgstr ""
-
 #: lib/welcome/sections/support.php:11
 #, php-format
 msgid ""
@@ -1679,18 +1551,6 @@ msgstr ""
 msgid "Woo Themes"
 msgstr ""
 
-#: lib/wp_bootstrap_navwalker.php:188
-msgid "Add a menu"
-msgstr ""
-
-#: template-part-head.php:46
-msgid "My Account"
-msgstr ""
-
-#: template-part-head.php:48
-msgid "Login / Register"
-msgstr ""
-
 #: template-part-head.php:65
 msgid "Toggle navigation"
 msgstr ""
@@ -1699,28 +1559,8 @@ msgstr ""
 msgid "About The Author"
 msgstr ""
 
-#: template-part-postmeta.php:6
-msgid "Edit"
-msgstr ""
-
 #: template-part-related.php:16
 msgid "Related posts"
-msgstr ""
-
-#: template-part-searchbar.php:5
-msgid "Shop by category"
-msgstr ""
-
-#: template-part-searchbar.php:25
-msgid "Search"
-msgstr ""
-
-#: template-part-searchbar.php:29
-msgid "All"
-msgstr ""
-
-#: template-part-searchbar.php:42
-msgid "Search for products"
 msgstr ""
 
 #: template-part-searchbar.php:43
@@ -1733,16 +1573,176 @@ msgstr ""
 
 #: template-parts/demo-home-cats.php:5
 msgid "View More"
-msgstr ""
-
-#: template-parts/demo-layout-one.php:2 template-parts/demo-layout-two.php:2
-msgid "Our categories"
-msgstr ""
-
-#: template-parts/demo-layout-one.php:7 template-parts/demo-layout-two.php:10
-msgid "Recent products"
-msgstr ""
+msgstr "Ver mas"
 
 #: template-parts/demo-layout-two.php:6
 msgid "Sale products"
 msgstr ""
+
+#: 404.php:14
+msgid "404 Not Found"
+msgstr "404 Pagina no encontrada"
+
+#: 404.php:16
+msgid "Sorry, an error has occured, Requested page not found!"
+msgstr "Lo siento. un error ha ocurrido pagina no encontrada"
+
+#: comments.php:6
+msgid "Leave a Comment"
+msgstr "Deja un comentario"
+
+#: comments.php:6
+msgid "One Comment"
+msgstr "une comentario"
+
+#: comments.php:6
+msgid " Comments"
+msgstr "Comentarios"
+
+#: content-none.php:2
+msgid "Nothing Found"
+msgstr "No se ha encontrado"
+
+#: content-single.php:26
+msgid "Previous:"
+msgstr "Previo"
+
+#: content-single.php:27
+msgid "Next:"
+msgstr "Siguiente "
+
+#: content.php:24
+msgid "Read more"
+msgstr "Leer mas"
+
+#: front-page.php:33
+msgid "No products found"
+msgstr "Producto no encontrado"
+
+#: functions.php:25
+msgid "Main Menu"
+msgstr "Menú principal"
+
+#: functions.php:257
+msgid "Search results for"
+msgstr "Buscar resultados para"
+
+#: functions.php:346
+msgid "View your shopping cart"
+msgstr "Ve tu carrito de compras"
+
+#: functions.php:347
+msgid "Cart "
+msgstr "Carro"
+
+#: functions.php:361
+msgid "Wishlist"
+msgstr "Favoritos"
+
+#: functions.php:434
+msgid "Add to Wishlist"
+msgstr "Agregar a favoritos"
+
+#: functions.php:435
+msgid "View Wishlist"
+msgstr "Ver favoritos"
+
+#: functions.php:436
+msgid "The product is already in the wishlist!"
+msgstr "El producto ya esta en agregado a favoritos"
+
+#: functions.php:436
+msgid "Browse Wishlist"
+msgstr "Buscar favoritos"
+
+#: lib/metaboxes.php:45 lib/metaboxes.php:46
+msgid "Title"
+msgstr "Titulo"
+
+#: lib/metaboxes.php:51 lib/metaboxes.php:52
+msgid "Description"
+msgstr "descripcion"
+
+#: lib/theme-config.php:47
+msgid "Search Bar & Social"
+msgstr "Barra de búsqueda y social"
+
+#: lib/theme-config.php:49
+msgid "Search and social icons"
+msgstr "Búsqueda e iconos sociales"
+
+#: lib/theme-config.php:201
+msgid "Products"
+msgstr "Productos"
+
+#: lib/theme-config.php:332
+msgid "Search bar"
+msgstr "Barra de busqueda"
+
+#: lib/theme-config.php:361
+msgid "Social Icons"
+msgstr "Iconos sociales"
+
+#: lib/theme-config.php:447
+msgid "Header Wishlist icon"
+msgstr "Icono favoritos"
+
+#: lib/theme-config.php:466
+msgid "My Account/Login link"
+msgstr "Mi cuenta / Login"
+
+#: lib/theme-config.php:508
+msgid "Number of products"
+msgstr "Numero de productos"
+
+#: lib/welcome/sections/free_pro.php:24 lib/welcome/sections/free_pro.php:25
+msgid "Demo"
+msgstr "Demo"
+
+#: lib/welcome/sections/free_pro.php:30
+msgid "Download"
+msgstr "Descargar"
+
+#: lib/welcome/sections/support.php:9
+msgid "Need more details?"
+msgstr "¿ Necesitas mas detalles ?"
+
+#: lib/wp_bootstrap_navwalker.php:188
+msgid "Add a menu"
+msgstr "Agregar un menú"
+
+#: template-part-head.php:46
+msgid "My Account"
+msgstr "Mi Cuenta"
+
+#: template-part-head.php:48
+msgid "Login / Register"
+msgstr "Iniciar sesión / registrarse"
+
+#: template-part-postmeta.php:6
+msgid "Edit"
+msgstr "Editar"
+
+#: template-part-searchbar.php:5
+msgid "Shop by category"
+msgstr "Categorías"
+
+#: template-part-searchbar.php:25
+msgid "Search"
+msgstr "Buscar"
+
+#: template-part-searchbar.php:29
+msgid "All"
+msgstr "Todo"
+
+#: template-part-searchbar.php:42
+msgid "Search for products"
+msgstr "Buscar productos"
+
+#: template-parts/demo-layout-one.php:2 template-parts/demo-layout-two.php:2
+msgid "Our categories"
+msgstr "Nuestras categorias"
+
+#: template-parts/demo-layout-one.php:7 template-parts/demo-layout-two.php:10
+msgid "Recent products"
+msgstr "Productos recientes"

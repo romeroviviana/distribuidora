@@ -1,0 +1,28 @@
+05-22-2017 @ 05:03:18 - [custom_process_admin_options] - analytics info response: {
+    "status": 200,
+    "response": {
+        "checkout_custom_ticket": "false",
+        "checkout_custom_ticket_coupon": "false",
+        "collector_id": "220510641",
+        "site_id": "MLV",
+        "platform": "WooCommerce",
+        "platform_version": "3.0.7",
+        "module_version": "2.2.6",
+        "code_version": "5.5.15",
+        "so_server": "WINNT"
+    }
+}
+05-22-2017 @ 05:03:19 - [custom_process_admin_options] - analytics info response: {
+    "status": 200,
+    "response": {
+        "checkout_custom_ticket": "false",
+        "checkout_custom_ticket_coupon": "false",
+        "collector_id": "220510641",
+        "site_id": "MLV",
+        "platform": "WooCommerce",
+        "platform_version": "3.0.7",
+        "module_version": "2.2.6",
+        "code_version": "5.5.15",
+        "so_server": "WINNT"
+    }
+}
