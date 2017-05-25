@@ -1,5 +1,5 @@
 #wcfm_menu{ 
-	background: #cccccc;
+	background: #2ae023;
 }
 
 #wcfm_menu .wcfm_menu_items a.wcfm_menu_item, #wcfm_menu span.wcfm_sub_menu_items{ 
@@ -11,7 +11,7 @@
 }
 
 #wcfm_menu .wcfm_menu_items a.active{ 
-	background: #00897b;
+	background: #0900bc;
 }
 
 #wcfm_menu .wcfm_menu_items a.active span{ 
