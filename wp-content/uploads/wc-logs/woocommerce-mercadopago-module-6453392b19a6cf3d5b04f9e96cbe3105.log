@@ -386,3 +386,132 @@
 }
 05-22-2017 @ 05:43:01 - [render_order_form] - embedding Mercado Pago iframe.
 12-31-2005 @ 22:32:36 - [validate_credentials] - while validating credentials, got exception: {"status":500,"message":"SSL certificate problem: certificate is not yet valid"}
+05-23-2017 @ 10:51:59 - [process_payment] - preparing to render Mercado Pago checkout view.
+05-23-2017 @ 10:52:09 - [build_payment_preference] - preference created with following structure: {
+    "items": [
+        {
+            "id": 82,
+            "title": "Tinte para cabello x 1",
+            "description": "strongLorem-Ipsumstrong-es-simplemente-el-texto-de-relleno-de-las-imprentas-y-archivos-de-texto.-Lorem-Ipsum-ha-sido-el-texto-de-relleno-estándar-de-las-industrias-desde-el-año-1500-cuando-un-impresor-N.-del-T.-persona-q",
+            "picture_url": "http:\/\/localhost\/distribuidora\/wp-content\/uploads\/2017\/05\/tinte_cabello.jpg",
+            "category_id": "fashion",
+            "quantity": 1,
+            "unit_price": 5000,
+            "currency_id": "VEF"
+        }
+    ],
+    "payer": {
+        "name": "Beatriz",
+        "surname": "",
+        "email": "bvillamizarespitia@gmail.com",
+        "phone": {
+            "number": "04266754603"
+        },
+        "address": {
+            "street_name": "rubio \/ rubio rubio VE",
+            "zip_code": "5030"
+        }
+    },
+    "back_urls": {
+        "success": "http:\/\/localhost\/distribuidora\/finalizar-comprar\/order-received\/131?key=wc_order_592468ac6cff1",
+        "failure": "http:\/\/localhost\/distribuidora\/carro\/?cancel_order=true&order=wc_order_592468ac6cff1&order_id=131&redirect&_wpnonce=6883f75434",
+        "pending": "http:\/\/localhost\/distribuidora\/finalizar-comprar\/order-received\/131?key=wc_order_592468ac6cff1"
+    },
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "   ",
+            "apartment": ""
+        }
+    },
+    "payment_methods": {
+        "installments": 24,
+        "default_installments": 1
+    },
+    "external_reference": "WC-131",
+    "sponsor_id": 208692735,
+    "auto_return": "approved"
+}
+05-23-2017 @ 10:52:10 - [create_url] - payment link generated with success from mercado pago, with structure as follow: {
+    "status": 201,
+    "response": {
+        "collector_id": 220510641,
+        "sponsor_id": 208692735,
+        "operation_type": "regular_payment",
+        "items": [
+            {
+                "id": "82",
+                "picture_url": "http:\/\/localhost\/distribuidora\/wp-content\/uploads\/2017\/05\/tinte_cabello.jpg",
+                "title": "Tinte para cabello x 1",
+                "description": "strongLorem-Ipsumstrong-es-simplemente-el-texto-de-relleno-de-las-imprentas-y-archivos-de-texto.-Lorem-Ipsum-ha-sido-el-texto-de-relleno-estándar-de-las-industrias-desde-el-año-1500-cuando-un-impresor-N.-del-T.-persona-q",
+                "category_id": "fashion",
+                "currency_id": "VEF",
+                "quantity": 1,
+                "unit_price": 5000
+            }
+        ],
+        "payer": {
+            "name": "Beatriz",
+            "surname": "",
+            "email": "bvillamizarespitia@gmail.com",
+            "date_created": "",
+            "phone": {
+                "area_code": "",
+                "number": "04266754603"
+            },
+            "identification": {
+                "type": "",
+                "number": ""
+            },
+            "address": {
+                "street_name": "rubio  rubio rubio VE",
+                "street_number": null,
+                "zip_code": "5030"
+            }
+        },
+        "back_urls": {
+            "success": "http:\/\/localhost\/distribuidora\/finalizar-comprar\/order-received\/131?key=wc_order_592468ac6cff1",
+            "pending": "http:\/\/localhost\/distribuidora\/finalizar-comprar\/order-received\/131?key=wc_order_592468ac6cff1",
+            "failure": "http:\/\/localhost\/distribuidora\/carro\/?cancel_order=true&order=wc_order_592468ac6cff1&order_id=131&redirect&_wpnonce=6883f75434"
+        },
+        "auto_return": "approved",
+        "payment_methods": {
+            "excluded_payment_methods": [
+                {
+                    "id": ""
+                }
+            ],
+            "excluded_payment_types": [
+                {
+                    "id": ""
+                }
+            ],
+            "installments": 24,
+            "default_payment_method_id": null,
+            "default_installments": 1
+        },
+        "client_id": "963",
+        "marketplace": "NONE",
+        "marketplace_fee": 0,
+        "shipments": {
+            "receiver_address": {
+                "zip_code": "",
+                "street_number": null,
+                "street_name": "   ",
+                "floor": "",
+                "apartment": ""
+            }
+        },
+        "notification_url": null,
+        "external_reference": "WC-131",
+        "additional_info": "",
+        "expires": false,
+        "expiration_date_from": null,
+        "expiration_date_to": null,
+        "date_created": "2017-05-24T00:20:22.283-04:00",
+        "id": "220510641-45c21d3e-a1c5-434f-a423-0f991e2e95b0",
+        "init_point": "https:\/\/www.mercadopago.com\/mlv\/checkout\/start?pref_id=220510641-45c21d3e-a1c5-434f-a423-0f991e2e95b0",
+        "sandbox_init_point": "https:\/\/sandbox.mercadopago.com\/mlv\/checkout\/pay?pref_id=220510641-45c21d3e-a1c5-434f-a423-0f991e2e95b0"
+    }
+}
+05-23-2017 @ 10:52:10 - [render_order_form] - embedding Mercado Pago iframe.

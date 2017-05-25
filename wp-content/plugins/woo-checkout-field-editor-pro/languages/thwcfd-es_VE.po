@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Checkout Field Editor Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-24 22:26+0000\n"
+"PO-Revision-Date: 2017-05-24 22:29+0000\n"
+"Last-Translator: Beatriz villamizar <bvillamizarespitia@gmail.com>\n"
+"Language-Team: Spanish (Venezuela)\n"
+"Language: es-VE\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: classes/class-wc-checkout-field-editor.php:29
+msgid "WooCommerce Checkout Form Designer"
+msgstr ""
+
+#: classes/class-wc-checkout-field-editor.php:29
+msgid "Checkout Form"
+msgstr "Confirmar campo"
+
+#: classes/class-wc-checkout-field-editor.php:76
+msgid "WooCommerce"
+msgstr ""
+
+#: classes/class-wc-checkout-field-editor.php:88
+msgid "SUCCESS: Checkout fields successfully reset"
+msgstr "Campos reseteados con  Exito "
+
+#: classes/class-wc-checkout-field-editor.php:377
+msgid "Fields"
+msgstr "Campos"
+
+#: classes/class-wc-checkout-field-editor.php:419
+msgid "+ Add field"
+msgstr "Agregar campo"
+
+#: classes/class-wc-checkout-field-editor.php:420
+msgid "Remove"
+msgstr "Quitar"
+
+#: classes/class-wc-checkout-field-editor.php:421
+msgid "Enable"
+msgstr "Activar"
+
+#: classes/class-wc-checkout-field-editor.php:422
+msgid "Disable"
+msgstr "Desactivar"
+
+#: classes/class-wc-checkout-field-editor.php:425
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: classes/class-wc-checkout-field-editor.php:426
+msgid "Reset to default fields"
+msgstr "Volver a los cambios pro defecto"
+
+#: classes/class-wc-checkout-field-editor.php:577
+msgid "Edit"
+msgstr "Editar"
+
+#: classes/class-wc-checkout-field-editor.php:704
+msgid "Your changes were saved."
+msgstr "Tus cambios han sido guardados"
+
+#: classes/class-wc-checkout-field-editor.php:706
+msgid "Your changes were not saved due to an error (or you made none!)."
+msgstr "Tus cambios no han sido guardados debido a un error"
+
+#. Name of the plugin
+msgid "Woo Checkout Field Editor Pro"
+msgstr "revisa la version premiun"
+
+#. Description of the plugin
+msgid ""
+"Customize WooCommerce checkout fields(Add, Edit, Delete and re-arrange "
+"fields)."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.themehigh.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "ThemeHiGH"
+msgstr ""

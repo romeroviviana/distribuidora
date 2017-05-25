@@ -1,0 +1,174 @@
+.page_collapsible { cursor: pointer: }
+
+#wcfm_products_simple_draft_button, #wcfm_products_simple_submit_button, .wcfm_add_attribute, input.upload_button, input.remove_button {
+	float: right;
+	margin-top: 10px;
+	margin-left: 10px;
+	
+	background: #1a1a1a none repeat scroll 0 0;
+	border: 0 none;
+	border-radius: 2px;
+	color: #fff;
+	font-family: Montserrat,"Helvetica Neue",sans-serif;
+	font-weight: 700;
+	letter-spacing: 0.046875em;
+	line-height: 1;
+	padding: 0.84375em 0.875em 0.78125em;
+	text-transform: uppercase;
+}
+
+#wcfm_products_simple_draft_button:hover, #wcfm_products_simple_submit_button:hover, .wcfm_add_attribute:hover, input.upload_button:hover, input.remove_button:hover, .multi_input_block_manupulate:hover {
+	background: #00897b none repeat scroll 0 0;
+	color: #ffffff !important;
+}
+
+.wcfm_add_attribute {
+	color: #ffffff !important;
+	float: none;
+	margin-top: 2px;
+	padding: 4px;
+}
+
+.required {
+  color: red; 
+}
+
+.multi_input_block {
+  border: 1px solid #dfdfdf;
+  radius: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.multi_input_block_manupulate {
+  float: right;
+  margin: 2px !important;
+  font-size: 30px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.wcfm_ele_hide, .wcfm_head_hide, .wcfm_block_hide, .non_stock_ele_hide, .non_virtual_ele_hide, .downloadable_ele_hide {
+	display: none !important;
+}
+
+p.description {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+p.wcfm_title, #gallery_img .multi_input_block p {
+	font-size: 15px;
+	margin-bottom: 5px !important;
+	font-style: normal;
+	width: 35%;
+	display: inline-block;
+}
+
+input[type="text"].wcfm-text, select.wcfm-select, input[type="number"].wcfm-text, input[type="time"].wcfm-text {
+	padding: 5px;
+	width: 60%;
+	margin-bottom: 5px;
+	font-size: 15px;
+	display: inline-block;
+}
+
+textarea.wcfm-textarea {
+	width: 60%;
+	font-size: 15px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+input.wcfm-checkbox {
+	margin-right: 55%;
+}
+
+.select2-container {
+	margin-bottom: 5px;
+}
+
+#is_virtual_downloadable {
+	width: 35%;
+	visibility: hidden;
+}
+
+input[type="number"].wcfm-text {
+	padding: 2px;
+}
+
+input.upload_button, input.remove_button {
+  font-size: 12px;
+	padding: 5px;
+	float: none;
+	margin-bottom: 5px;
+}
+
+#pruduct_manager_draft_button, #pruduct_manager_submit_button {
+	float: right;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#product_manager_form label {
+	display: none;
+}
+
+.wcfm-wp-fields-uploader .placeHolderUploads, .wcfm-wp-fields-uploader .placeHolderjpg, .wcfm-wp-fields-uploader .placeHolderpng, .wcfm-wp-fields-uploader .placeHoldertxt, .wcfm-wp-fields-uploader .placeHolderdoc, .wcfm-wp-fields-uploader .placeHolderpdf, .wcfm-wp-fields-uploader .placeHolderzip, .wcfm-wp-fields-uploader .placeHolderrar, .wcfm-wp-fields-uploader .placeHoldertar, .wcfm-wp-fields-uploader .placeHoldergz, .wcfm-wp-fields-uploader .placeHoldertargz, .wcfm-wp-fields-uploader .placeHolderdocs, .wcfm-wp-fields-uploader .placeHolderppt, .wcfm-wp-fields-uploader .placeHolderppts {
+  background: url('../images/uploads.ico');
+  background: url(../images/uploads.ico) no-repeat center center / 75px 75px;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/uploads.png', sizingMethod='scale');
+  -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/uploads.png', sizingMethod='scale');
+  width :75px;
+  height: 75px;
+  display: inline-block;
+}
+
+.wcfm-wp-fields-uploader {
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+}
+
+.wcfm-wp-fields-uploader a {
+  border-bottom: 0px;
+}
+
+.wcfm-wp-fields-uploader img {
+	display: inline;
+}
+
+@media only screen and (max-width: 640px) {
+	p.wcfm_title {
+		width: 90%;
+	}
+	
+	p.wcfm_title.checkbox_title {
+		width: 50%;
+	}
+	
+	input[type="text"].wcfm-text, select.wcfm-select, input[type="number"].wcfm-text {
+		width: 100%;
+	}
+	
+	textarea.wcfm-textarea {
+		width: 100%;
+	}
+	
+	input.wcfm-checkbox {
+		margin-right: 5%;
+	}
+	
+	#is_virtual_downloadable {
+		width: 0%;
+	}
+	
+}
