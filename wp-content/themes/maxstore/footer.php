@@ -6,9 +6,9 @@
 <footer id="colophon" class="rsrc-footer" role="contentinfo">                
 	<div class="row rsrc-author-credits">                                       
 		<div class="text-center">
-			<?php printf( __( 'Proudly powered by %s', 'maxstore' ), '<a href="' . esc_url( __( 'https://wordpress.org/', 'maxstore' ) ) . '">WordPress</a>' ); ?>
+			Copyright 2017 
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s', 'maxstore' ), '<a href="http://themes4wp.com/theme/maxstore" title="' . esc_attr__( 'Free WooCommerce WordPress Theme', 'maxstore' ) . '">MaxStore</a>', 'Themes4WP' ); ?>
+			Distribidora SIA
 		</div>
 	</div>    
 </footer>
