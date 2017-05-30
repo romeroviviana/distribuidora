@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YIT WooCommerce Advanced Reviews\n"
 "POT-Creation-Date: 2016-06-08 11:41+0200\n"
-"PO-Revision-Date: 2017-05-29 01:05+0000\n"
+"PO-Revision-Date: 2017-05-29 01:04+0000\n"
 "Last-Translator: Beatriz Villamizar villamizar <bvillamizarespitia@gmail.com>"
 "\n"
 "Language-Team: Spanish (Venezuela)\n"
@@ -151,13 +151,13 @@ msgstr ""
 
 #: ../plugin-options/general-options.php:37
 msgid "Allowed extensions"
-msgstr "Permitir extensiones"
+msgstr ""
 
 #: ../plugin-options/general-options.php:39
 msgid ""
 "Set the file formats allowed, writing the extensions divided by comma (e.g., "
 "jpg,png,gif)."
-msgstr "Los formatos de archivos permitidos son :  jpg,png,gif.docx,pptx"
+msgstr ""
 
 #: ../plugin-options/general-options.php:44
 msgid "Order status"

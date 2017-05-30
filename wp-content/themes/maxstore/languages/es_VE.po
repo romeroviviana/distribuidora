@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MaxStore\n"
 "POT-Creation-Date: 2017-04-06 13:50+0200\n"
-"PO-Revision-Date: 2017-05-22 15:20+0000\n"
-"Last-Translator: Beatriz villamizar <bvillamizarespitia@gmail.com>\n"
+"PO-Revision-Date: 2017-05-29 00:02+0000\n"
+"Last-Translator: Beatriz Villamizar <bvillamizarespitia@gmail.com>\n"
 "Language-Team: Spanish (Venezuela)\n"
 "Language: es-VE\n"
 "MIME-Version: 1.0\n"
@@ -84,7 +84,7 @@ msgstr ""
 #: functions.php:167
 msgctxt "breadcrumb"
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 #: functions.php:184
 msgid "Blog"
@@ -100,12 +100,12 @@ msgstr ""
 
 #: functions.php:435
 msgid "Added!"
-msgstr ""
+msgstr "Agregado"
 
 #: functions.php:453
 msgctxt "woocommerce breadcrumb"
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 #: index.php:20
 #, php-format
@@ -1565,19 +1565,19 @@ msgstr ""
 
 #: template-part-searchbar.php:43
 msgid "Go"
-msgstr ""
+msgstr "Buscar"
 
 #: template-part-searchbar.php:49
 msgid "Follow Us"
 msgstr ""
 
-#: template-parts/demo-home-cats.php:5
-msgid "View More"
-msgstr "Ver mas"
-
 #: template-parts/demo-layout-two.php:6
 msgid "Sale products"
 msgstr ""
+
+#: template-parts/demo-home-cats.php:5
+msgid "View More"
+msgstr "Ver mas"
 
 #: 404.php:14
 msgid "404 Not Found"
@@ -1733,7 +1733,7 @@ msgstr "Buscar"
 
 #: template-part-searchbar.php:29
 msgid "All"
-msgstr "Todo"
+msgstr "Todas las categorias"
 
 #: template-part-searchbar.php:42
 msgid "Search for products"
