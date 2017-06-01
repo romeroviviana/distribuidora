@@ -6,7 +6,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-06-01 04:52+0000\n"
+"PO-Revision-Date: 2017-06-01 05:27+0000\n"
 "Last-Translator: Beatriz Villamizar villamizar <bvillamizarespitia@gmail.com>"
 "\n"
 "Language-Team: Spanish (Venezuela)\n"
@@ -5154,141 +5154,6 @@ msgstr ""
 msgid "Total:"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-rest-crud-controller.php:479
-#: includes/api/v1/class-wc-rest-taxes-controller.php:654
-#: includes/vendor/abstract-wp-rest-controller.php:253
-msgid "Current page of the collection."
-msgstr ""
-"Página actual de la colección.\n"
-
-#: includes/abstracts/abstract-wc-rest-crud-controller.php:487
-#: includes/api/v1/class-wc-rest-taxes-controller.php:662
-#: includes/vendor/abstract-wp-rest-controller.php:261
-msgid "Maximum number of items to be returned in result set."
-msgstr ""
-"Número máximo de elementos que se devolverán en el conjunto de resultados.\n"
-
-#: includes/abstracts/abstract-wc-rest-crud-controller.php:496
-#: includes/vendor/abstract-wp-rest-controller.php:270
-msgid "Limit results to those matching a string."
-msgstr ""
-"Limite los resultados a los que coincidan con una cadena.\n"
-
-#: includes/abstracts/abstract-wc-rest-crud-controller.php:502
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:618
-msgid ""
-"Limit response to resources published after a given ISO8601 compliant date."
-msgstr ""
-"Limitar la respuesta a los recursos publicados después de una determinada "
-"fecha compatible con ISO8601.\n"
-
-#: includes/abstracts/abstract-wc-rest-crud-controller.php:508
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:624
-msgid ""
-"Limit response to resources published before a given ISO8601 compliant date."
-msgstr ""
-"Limitar la respuesta a los recursos publicados antes de una determinada "
-"fecha compatible con ISO8601.\n"
-
-#: includes/abstracts/abstract-wc-rest-crud-controller.php:514
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:630
-#: includes/api/v1/class-wc-rest-customers-controller.php:863
-msgid "Ensure result set excludes specific IDs."
-msgstr ""
-"Asegúrese de que el conjunto de resultados excluya IDs específicos.\n"
-
-#: includes/abstracts/abstract-wc-rest-crud-controller.php:523
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:639
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:708
-msgid "Limit result set to specific ids."
-msgstr ""
-"Limitar el conjunto de resultados a ids específicos.\n"
-
-#: includes/abstracts/abstract-wc-rest-crud-controller.php:532
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:648
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:718
-#: includes/api/v1/class-wc-rest-customers-controller.php:881
-#: includes/api/v1/class-wc-rest-taxes-controller.php:671
-msgid "Offset the result set by a specific number of items."
-msgstr ""
-"Desfase el resultado establecido por un número específico de elementos.\n"
-
-#: includes/abstracts/abstract-wc-rest-crud-controller.php:538
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:654
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:725
-#: includes/api/v1/class-wc-rest-customers-controller.php:888
-#: includes/api/v1/class-wc-rest-taxes-controller.php:678
-msgid "Order sort attribute ascending or descending."
-msgstr ""
-"Ordenar el atributo de orden ascendente o descendente.\n"
-
-#: includes/abstracts/abstract-wc-rest-crud-controller.php:545
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:661
-#: includes/api/v1/class-wc-rest-customers-controller.php:896
-#: includes/api/v1/class-wc-rest-taxes-controller.php:686
-msgid "Sort collection by object attribute."
-msgstr ""
-"Ordenar colección por atributo de objeto.\n"
-
-#: includes/abstracts/abstract-wc-rest-crud-controller.php:560
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:678
-msgid "Limit result set to those of particular parent IDs."
-msgstr ""
-"Limita el conjunto de resultados a los de las identificaciones de los padres "
-"particulares.\n"
-
-#: includes/abstracts/abstract-wc-rest-crud-controller.php:569
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:687
-msgid "Limit result set to all items except those of a particular parent ID."
-msgstr ""
-"Limitar el conjunto de resultados a todos los elementos excepto los de un ID "
-"padre particular.\n"
-
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:53
-#: includes/abstracts/abstract-wc-rest-shipping-zones-controller.php:67
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:117
-#: includes/api/class-wc-rest-payment-gateways-controller.php:83
-#: includes/api/class-wc-rest-setting-options-controller.php:371
-#: includes/api/class-wc-rest-settings-controller.php:179
-#: includes/api/class-wc-rest-shipping-methods-controller.php:77
-#: includes/api/class-wc-rest-system-status-controller.php:60
-#: includes/api/class-wc-rest-system-status-tools-controller.php:81
-#: includes/api/v1/class-wc-rest-customer-downloads-controller.php:74
-#: includes/api/v1/class-wc-rest-customers-controller.php:135
-#: includes/api/v1/class-wc-rest-order-notes-controller.php:121
-#: includes/api/v1/class-wc-rest-product-attributes-controller.php:127
-#: includes/api/v1/class-wc-rest-product-reviews-controller.php:134
-#: includes/api/v1/class-wc-rest-report-sales-controller.php:69
-#: includes/api/v1/class-wc-rest-reports-controller.php:62
-#: includes/api/v1/class-wc-rest-tax-classes-controller.php:90
-#: includes/api/v1/class-wc-rest-taxes-controller.php:114
-#: includes/api/v1/class-wc-rest-webhook-deliveries.php:90
-msgid "Sorry, you cannot list resources."
-msgstr ""
-"Lo siento, no puedes enumerar recursos.\n"
-
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:67
-#: includes/abstracts/abstract-wc-rest-shipping-zones-controller.php:85
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:136
-#: includes/api/v1/class-wc-rest-customers-controller.php:149
-#: includes/api/v1/class-wc-rest-order-notes-controller.php:135
-#: includes/api/v1/class-wc-rest-product-reviews-controller.php:165
-#: includes/api/v1/class-wc-rest-tax-classes-controller.php:104
-#: includes/api/v1/class-wc-rest-taxes-controller.php:128
-msgid "Sorry, you are not allowed to create resources."
-msgstr ""
-"Lo siento, no se le permite crear recursos.\n"
-
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:129
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:212
-#: includes/api/class-wc-rest-product-reviews-controller.php:70
-#: includes/api/v1/class-wc-rest-customers-controller.php:211
-#: includes/api/v1/class-wc-rest-product-attributes-controller.php:209
-#: includes/api/v1/class-wc-rest-taxes-controller.php:184
-msgid "Sorry, you are not allowed to batch manipulate this resource."
-msgstr ""
-"Lo sentimos, no está permitido manipular por lotes este recurso.\n"
-
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:146
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:253
 #: includes/api/class-wc-rest-products-controller.php:675
@@ -5329,21 +5194,6 @@ msgstr ""
 #: includes/api/v1/class-wc-rest-product-attributes-controller.php:631
 msgid "Resource does not exist."
 msgstr ""
-
-#: includes/abstracts/abstract-wc-rest-shipping-zones-controller.php:63
-#: includes/abstracts/abstract-wc-rest-shipping-zones-controller.php:81
-#: includes/abstracts/abstract-wc-rest-shipping-zones-controller.php:99
-#: includes/abstracts/abstract-wc-rest-shipping-zones-controller.php:117
-msgid "Shipping is disabled."
-msgstr ""
-"El envío está deshabilitado.\n"
-
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:49
-#: includes/api/v1/class-wc-rest-product-attribute-terms-controller.php:63
-#: includes/api/v1/class-wc-rest-product-attributes-controller.php:63
-msgid "Name for the resource."
-msgstr ""
-"Nombre del recurso.\n"
 
 #: includes/abstracts/abstract-wc-rest-terms-controller.php:60
 #: includes/api/class-wc-rest-coupons-controller.php:75
@@ -5459,21 +5309,6 @@ msgstr ""
 msgid "Limit result set to resources with a specific slug."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-settings-api.php:735
-#: includes/admin/class-wc-admin-menus.php:279
-#: includes/admin/class-wc-admin-settings.php:618
-#: includes/admin/meta-boxes/views/html-product-attribute.php:45
-msgid "Select all"
-msgstr ""
-"Seleccionar todo\n"
-
-#: includes/abstracts/abstract-wc-settings-api.php:735
-#: includes/admin/class-wc-admin-settings.php:618
-#: includes/admin/meta-boxes/views/html-product-attribute.php:46
-msgid "Select none"
-msgstr ""
-"Seleccionar ninguno\n"
-
 #: includes/abstracts/abstract-wc-shipping-method.php:279
 #: includes/admin/class-wc-admin-meta-boxes.php:127
 msgid "Items"
@@ -5520,11 +5355,6 @@ msgstr ""
 #: includes/admin/settings/views/html-keys-edit.php:70
 msgid "Consumer key ending in"
 msgstr ""
-
-#: includes/admin/class-wc-admin-api-keys-table-list.php:42
-#: includes/admin/settings/views/html-keys-edit.php:25
-msgid "User"
-msgstr "Usuario"
 
 #: includes/admin/class-wc-admin-api-keys-table-list.php:43
 #: includes/admin/settings/views/html-keys-edit.php:48
@@ -7233,13 +7063,6 @@ msgstr ""
 msgid "Complete"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:668
-#: includes/admin/reports/class-wc-report-stock.php:138
-#: includes/admin/views/html-admin-page-status-logs.php:28
-#: templates/myaccount/my-orders.php:79 templates/myaccount/orders.php:75
-msgid "View"
-msgstr ""
-
 #: includes/admin/class-wc-admin-post-types.php:795
 msgid "Sort products"
 msgstr ""
@@ -7508,14 +7331,6 @@ msgstr ""
 #: includes/admin/settings/views/settings-tax.php:31
 msgid "Customer shipping address"
 msgstr ""
-
-#: includes/admin/class-wc-admin-reports.php:45
-#: includes/admin/reports/class-wc-report-customer-list.php:212
-#: includes/admin/settings/class-wc-settings-accounts.php:113
-#: includes/class-wc-post-types.php:318 includes/class-wc-query.php:101
-#: includes/wc-account-functions.php:97
-msgid "Orders"
-msgstr "Ordenes"
 
 #: includes/admin/class-wc-admin-reports.php:48
 msgid "Sales by date"
@@ -10185,10 +10000,6 @@ msgid ""
 "access account related functionality."
 msgstr ""
 
-#: includes/admin/settings/class-wc-settings-accounts.php:46
-msgid "My account page"
-msgstr "Mi cuenta page"
-
 #: includes/admin/settings/class-wc-settings-accounts.php:47
 #: includes/admin/settings/class-wc-settings-checkout.php:140
 #: includes/admin/settings/class-wc-settings-checkout.php:151
@@ -10254,11 +10065,6 @@ msgstr ""
 msgid "Endpoint for the \"My account &rarr; View order\" page."
 msgstr ""
 
-#: includes/admin/settings/class-wc-settings-accounts.php:131
-#: includes/class-wc-query.php:110 includes/wc-account-functions.php:98
-msgid "Downloads"
-msgstr "Descargas"
-
 #: includes/admin/settings/class-wc-settings-accounts.php:132
 msgid "Endpoint for the \"My account &rarr; Downloads\" page."
 msgstr ""
@@ -10270,11 +10076,6 @@ msgstr ""
 #: includes/admin/settings/class-wc-settings-accounts.php:141
 msgid "Endpoint for the \"My account &rarr; Edit account\" page."
 msgstr ""
-
-#: includes/admin/settings/class-wc-settings-accounts.php:149
-#: includes/class-wc-query.php:116 includes/wc-account-functions.php:99
-msgid "Addresses"
-msgstr "Direcciones"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:150
 msgid "Endpoint for the \"My account &rarr; Addresses\" page."
@@ -10292,12 +10093,6 @@ msgstr ""
 #: includes/admin/settings/class-wc-settings-accounts.php:168
 msgid "Endpoint for the \"My account &rarr; Lost password\" page."
 msgstr ""
-
-#: includes/admin/settings/class-wc-settings-accounts.php:176
-#: includes/wc-account-functions.php:102
-#: templates/auth/form-grant-access.php:39
-msgid "Logout"
-msgstr "Cerrar sesion"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:177
 msgid ""
@@ -18974,12 +18769,6 @@ msgstr ""
 msgid "Invalid order. If you have an account please log in and try again."
 msgstr ""
 
-#: includes/shortcodes/class-wc-shortcode-checkout.php:91
-#: includes/shortcodes/class-wc-shortcode-my-account.php:118
-#: templates/checkout/thankyou.php:35
-msgid "My account"
-msgstr "Mi cuenta"
-
 #: includes/shortcodes/class-wc-shortcode-checkout.php:118
 #: includes/shortcodes/class-wc-shortcode-checkout.php:163
 msgid ""
@@ -19115,10 +18904,6 @@ msgstr ""
 #: includes/vendor/wp-rest-functions.php:239
 msgid "%1$s must be between %2$d (inclusive) and %3$d (inclusive)"
 msgstr ""
-
-#: includes/wc-account-functions.php:96
-msgid "Dashboard"
-msgstr "Inicio"
 
 #: includes/wc-account-functions.php:204 includes/wc-account-functions.php:225
 msgid "Expires"
@@ -19992,10 +19777,6 @@ msgstr ""
 msgid "Reviews (%d)"
 msgstr ""
 
-#: includes/wc-template-functions.php:1459
-msgid "Checkout"
-msgstr "Comprar"
-
 #: includes/wc-template-functions.php:1584
 msgid "Place order"
 msgstr ""
@@ -20445,6 +20226,225 @@ msgstr ""
 msgctxt "Product quantity input tooltip"
 msgid "Qty"
 msgstr ""
+
+#: includes/abstracts/abstract-wc-rest-crud-controller.php:479
+#: includes/api/v1/class-wc-rest-taxes-controller.php:654
+#: includes/vendor/abstract-wp-rest-controller.php:253
+msgid "Current page of the collection."
+msgstr ""
+"Página actual de la colección.\n"
+
+#: includes/abstracts/abstract-wc-rest-crud-controller.php:487
+#: includes/api/v1/class-wc-rest-taxes-controller.php:662
+#: includes/vendor/abstract-wp-rest-controller.php:261
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+"Número máximo de elementos que se devolverán en el conjunto de resultados.\n"
+
+#: includes/abstracts/abstract-wc-rest-crud-controller.php:496
+#: includes/vendor/abstract-wp-rest-controller.php:270
+msgid "Limit results to those matching a string."
+msgstr ""
+"Limite los resultados a los que coincidan con una cadena.\n"
+
+#: includes/abstracts/abstract-wc-rest-crud-controller.php:502
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:618
+msgid ""
+"Limit response to resources published after a given ISO8601 compliant date."
+msgstr ""
+"Limitar la respuesta a los recursos publicados después de una determinada "
+"fecha compatible con ISO8601.\n"
+
+#: includes/abstracts/abstract-wc-rest-crud-controller.php:508
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:624
+msgid ""
+"Limit response to resources published before a given ISO8601 compliant date."
+msgstr ""
+"Limitar la respuesta a los recursos publicados antes de una determinada "
+"fecha compatible con ISO8601.\n"
+
+#: includes/abstracts/abstract-wc-rest-crud-controller.php:514
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:630
+#: includes/api/v1/class-wc-rest-customers-controller.php:863
+msgid "Ensure result set excludes specific IDs."
+msgstr ""
+"Asegúrese de que el conjunto de resultados excluya IDs específicos.\n"
+
+#: includes/abstracts/abstract-wc-rest-crud-controller.php:523
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:639
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:708
+msgid "Limit result set to specific ids."
+msgstr ""
+"Limitar el conjunto de resultados a ids específicos.\n"
+
+#: includes/abstracts/abstract-wc-rest-crud-controller.php:532
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:648
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:718
+#: includes/api/v1/class-wc-rest-customers-controller.php:881
+#: includes/api/v1/class-wc-rest-taxes-controller.php:671
+msgid "Offset the result set by a specific number of items."
+msgstr ""
+"Desfase el resultado establecido por un número específico de elementos.\n"
+
+#: includes/abstracts/abstract-wc-rest-crud-controller.php:538
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:654
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:725
+#: includes/api/v1/class-wc-rest-customers-controller.php:888
+#: includes/api/v1/class-wc-rest-taxes-controller.php:678
+msgid "Order sort attribute ascending or descending."
+msgstr ""
+"Ordenar el atributo de orden ascendente o descendente.\n"
+
+#: includes/abstracts/abstract-wc-rest-crud-controller.php:545
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:661
+#: includes/api/v1/class-wc-rest-customers-controller.php:896
+#: includes/api/v1/class-wc-rest-taxes-controller.php:686
+msgid "Sort collection by object attribute."
+msgstr ""
+"Ordenar colección por atributo de objeto.\n"
+
+#: includes/abstracts/abstract-wc-rest-crud-controller.php:560
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:678
+msgid "Limit result set to those of particular parent IDs."
+msgstr ""
+"Limita el conjunto de resultados a los de las identificaciones de los padres "
+"particulares.\n"
+
+#: includes/abstracts/abstract-wc-rest-crud-controller.php:569
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:687
+msgid "Limit result set to all items except those of a particular parent ID."
+msgstr ""
+"Limitar el conjunto de resultados a todos los elementos excepto los de un ID "
+"padre particular.\n"
+
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:53
+#: includes/abstracts/abstract-wc-rest-shipping-zones-controller.php:67
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:117
+#: includes/api/class-wc-rest-payment-gateways-controller.php:83
+#: includes/api/class-wc-rest-setting-options-controller.php:371
+#: includes/api/class-wc-rest-settings-controller.php:179
+#: includes/api/class-wc-rest-shipping-methods-controller.php:77
+#: includes/api/class-wc-rest-system-status-controller.php:60
+#: includes/api/class-wc-rest-system-status-tools-controller.php:81
+#: includes/api/v1/class-wc-rest-customer-downloads-controller.php:74
+#: includes/api/v1/class-wc-rest-customers-controller.php:135
+#: includes/api/v1/class-wc-rest-order-notes-controller.php:121
+#: includes/api/v1/class-wc-rest-product-attributes-controller.php:127
+#: includes/api/v1/class-wc-rest-product-reviews-controller.php:134
+#: includes/api/v1/class-wc-rest-report-sales-controller.php:69
+#: includes/api/v1/class-wc-rest-reports-controller.php:62
+#: includes/api/v1/class-wc-rest-tax-classes-controller.php:90
+#: includes/api/v1/class-wc-rest-taxes-controller.php:114
+#: includes/api/v1/class-wc-rest-webhook-deliveries.php:90
+msgid "Sorry, you cannot list resources."
+msgstr ""
+"Lo siento, no puedes enumerar recursos.\n"
+
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:67
+#: includes/abstracts/abstract-wc-rest-shipping-zones-controller.php:85
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:136
+#: includes/api/v1/class-wc-rest-customers-controller.php:149
+#: includes/api/v1/class-wc-rest-order-notes-controller.php:135
+#: includes/api/v1/class-wc-rest-product-reviews-controller.php:165
+#: includes/api/v1/class-wc-rest-tax-classes-controller.php:104
+#: includes/api/v1/class-wc-rest-taxes-controller.php:128
+msgid "Sorry, you are not allowed to create resources."
+msgstr ""
+"Lo siento, no se le permite crear recursos.\n"
+
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:129
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:212
+#: includes/api/class-wc-rest-product-reviews-controller.php:70
+#: includes/api/v1/class-wc-rest-customers-controller.php:211
+#: includes/api/v1/class-wc-rest-product-attributes-controller.php:209
+#: includes/api/v1/class-wc-rest-taxes-controller.php:184
+msgid "Sorry, you are not allowed to batch manipulate this resource."
+msgstr ""
+"Lo sentimos, no está permitido manipular por lotes este recurso.\n"
+
+#: includes/abstracts/abstract-wc-rest-shipping-zones-controller.php:63
+#: includes/abstracts/abstract-wc-rest-shipping-zones-controller.php:81
+#: includes/abstracts/abstract-wc-rest-shipping-zones-controller.php:99
+#: includes/abstracts/abstract-wc-rest-shipping-zones-controller.php:117
+msgid "Shipping is disabled."
+msgstr ""
+"El envío está deshabilitado.\n"
+
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:49
+#: includes/api/v1/class-wc-rest-product-attribute-terms-controller.php:63
+#: includes/api/v1/class-wc-rest-product-attributes-controller.php:63
+msgid "Name for the resource."
+msgstr ""
+"Nombre del recurso.\n"
+
+#: includes/abstracts/abstract-wc-settings-api.php:735
+#: includes/admin/class-wc-admin-menus.php:279
+#: includes/admin/class-wc-admin-settings.php:618
+#: includes/admin/meta-boxes/views/html-product-attribute.php:45
+msgid "Select all"
+msgstr ""
+"Seleccionar todo\n"
+
+#: includes/abstracts/abstract-wc-settings-api.php:735
+#: includes/admin/class-wc-admin-settings.php:618
+#: includes/admin/meta-boxes/views/html-product-attribute.php:46
+msgid "Select none"
+msgstr ""
+"Seleccionar ninguno\n"
+
+#: includes/admin/class-wc-admin-api-keys-table-list.php:42
+#: includes/admin/settings/views/html-keys-edit.php:25
+msgid "User"
+msgstr "Usuario"
+
+#: includes/admin/class-wc-admin-post-types.php:668
+#: includes/admin/reports/class-wc-report-stock.php:138
+#: includes/admin/views/html-admin-page-status-logs.php:28
+#: templates/myaccount/my-orders.php:79 templates/myaccount/orders.php:75
+msgid "View"
+msgstr "Ver"
+
+#: includes/admin/class-wc-admin-reports.php:45
+#: includes/admin/reports/class-wc-report-customer-list.php:212
+#: includes/admin/settings/class-wc-settings-accounts.php:113
+#: includes/class-wc-post-types.php:318 includes/class-wc-query.php:101
+#: includes/wc-account-functions.php:97
+msgid "Orders"
+msgstr "Ordenes"
+
+#: includes/admin/settings/class-wc-settings-accounts.php:46
+msgid "My account page"
+msgstr "Mi cuenta page"
+
+#: includes/admin/settings/class-wc-settings-accounts.php:131
+#: includes/class-wc-query.php:110 includes/wc-account-functions.php:98
+msgid "Downloads"
+msgstr "Descargas"
+
+#: includes/admin/settings/class-wc-settings-accounts.php:149
+#: includes/class-wc-query.php:116 includes/wc-account-functions.php:99
+msgid "Addresses"
+msgstr "Direcciones"
+
+#: includes/admin/settings/class-wc-settings-accounts.php:176
+#: includes/wc-account-functions.php:102
+#: templates/auth/form-grant-access.php:39
+msgid "Logout"
+msgstr "Cerrar sesion"
+
+#: includes/shortcodes/class-wc-shortcode-checkout.php:91
+#: includes/shortcodes/class-wc-shortcode-my-account.php:118
+#: templates/checkout/thankyou.php:35
+msgid "My account"
+msgstr "Mi cuenta"
+
+#: includes/wc-account-functions.php:96
+msgid "Dashboard"
+msgstr "Inicio"
+
+#: includes/wc-template-functions.php:1459
+msgid "Checkout"
+msgstr "Comprar"
 
 #: includes/api/legacy/v3/class-wc-api-taxes.php:351
 msgid "Could not delete the tax rate"
@@ -22832,7 +22832,7 @@ msgstr "Clases de envio "
 #: includes/class-wc-post-types.php:260
 msgctxt "Admin menu name"
 msgid "Products"
-msgstr "Productos "
+msgstr "Products"
 
 #: includes/class-wc-post-types.php:382
 msgctxt "Admin menu name"
@@ -22843,19 +22843,19 @@ msgstr "Cupones "
 #: includes/wc-core-functions.php:1588 includes/wc-update-functions.php:51
 msgctxt "slug"
 msgid "product-category"
-msgstr "producto-categoria"
+msgstr "product-category"
 
 #: includes/admin/class-wc-admin-permalink-settings.php:85
 #: includes/wc-core-functions.php:1589 includes/wc-update-functions.php:52
 msgctxt "slug"
 msgid "product-tag"
-msgstr "producto-etiqueta "
+msgstr "product-tag"
 
 #: includes/admin/class-wc-admin-permalink-settings.php:196
 #: includes/wc-core-functions.php:1587 includes/wc-update-functions.php:60
 msgctxt "slug"
 msgid "product"
-msgstr "Producto "
+msgstr "product"
 
 #: includes/wc-product-functions.php:271
 msgctxt "slug"
@@ -22871,7 +22871,7 @@ msgstr "Tienda "
 #: includes/admin/class-wc-admin-permalink-settings.php:107
 msgctxt "default-slug"
 msgid "product"
-msgstr "Producto "
+msgstr "product"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:253
 #: includes/class-wc-install.php:320
@@ -23000,7 +23000,7 @@ msgstr "mi-cuenta "
 #: includes/class-wc-post-types.php:196
 msgctxt "Product Attribute"
 msgid "Product %s"
-msgstr "Producto %s"
+msgstr "Product %s"
 
 #: includes/class-wc-post-types.php:319
 msgctxt "shop_order post type singular name"
